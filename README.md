@@ -1,2 +1,9 @@
-# js-mini-cricket-game
-A simple JavaScript mini cricket game
+JavaScript Mini Cricket Game
+*Tech Stack*
+HTMl
+CSS
+JavaScript
+*Features*
+User vs Computer game
+Random Logic
+Simple UI
