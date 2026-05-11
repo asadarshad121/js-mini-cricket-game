@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+   <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1>Bat Ball Stump Game</h1>
+
+    <button
+      id="bu1"
+      onclick="
+        console.log('You Have Chosen Bat');
+
+        computerChoice  = condition();
+        let resultMsg = getResult('Bat', computerChoice);
+        
+     
+       
+        showResult('Bat', computerChoice, resultMsg);
+      "
+    >
+      🏏Bat
+    </button>
+
+    <button
+      id="bu2"
+      onclick="
+        console.log('You Have Chosen Ball');
+        
+
+         computerChoice  = condition();
+         resultMsg = getResult('Ball', computerChoice);
+
+        
+
+       showResult('Ball', computerChoice, resultMsg);
+      "
+    >
+      ⚾Ball
+    </button>
+
+    <button
+      id="bu3"
+      onclick="
+        let computerChoice  = condition();
+         resultMsg = getResult('Stump', computerChoice);
+
+        
+
+      showResult('Stump', computerChoice, resultMsg); 
+      "
+    >
+      ⭕Stump
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>

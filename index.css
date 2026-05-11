@@ -1,0 +1,32 @@
+ 
+      body {
+        text-align: center;
+      }
+      #bu1 {
+        background-color: antiquewhite;
+        color: black;
+        width: 60px;
+        border: 2px solid black;
+        border-radius: 4px;
+        text-decoration: underline;
+        text-align: center;
+      }
+      #bu2 {
+        color: white;
+        background-color: rgb(36, 26, 13);
+        width: 60px;
+        border: 2px solid rgb(29, 10, 10);
+        border-radius: 4px;
+        text-decoration: underline;
+        text-align: center;
+      }
+      #bu3 {
+        color: white;
+        background-color: rgb(31, 28, 7);
+        width: 69px;
+        border: 2px solid black;
+        border-radius: 4px;
+        text-decoration: underline;
+        text-align: center;
+      }
+    
