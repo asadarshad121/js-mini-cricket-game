@@ -2,31 +2,37 @@
       body {
         text-align: center;
       }
-      #bu1 {
-        background-color: antiquewhite;
-        color: black;
-        width: 60px;
-        border: 2px solid black;
-        border-radius: 4px;
-        text-decoration: underline;
-        text-align: center;
-      }
-      #bu2 {
+    
+      #res{
         color: white;
-        background-color: rgb(36, 26, 13);
-        width: 60px;
-        border: 2px solid rgb(29, 10, 10);
-        border-radius: 4px;
-        text-decoration: underline;
-        text-align: center;
-      }
-      #bu3 {
-        color: white;
-        background-color: rgb(31, 28, 7);
+        background-color: rgb(71, 68, 42);
         width: 69px;
+        height: 40px;
         border: 2px solid black;
         border-radius: 4px;
         text-decoration: underline;
         text-align: center;
       }
+     .btn{
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    background-color: darkred;
+    color: white;
+}
+.btn:active{
+   background-color: darkred;
+   color: white;
+   transform: scale(0.92);
+}
+.image_choice{
+  width: 70px;
+  height: 90px;
+  background-color: greenyellow;
+  border: 2px solid black;
+  border-radius: 15px;
+}
     
